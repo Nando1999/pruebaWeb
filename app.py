@@ -10,8 +10,8 @@ app = Flask(__name__)
 #ruta principal
 #Llamar a index.html en la ruta principal
 @app.route('/')
-def idex():
-    return render_template('idex3.html')
+def index():
+    return render_template('index.html')
 
 
 # main del programa
