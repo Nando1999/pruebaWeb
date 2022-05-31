@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route('/')
 #Llamar a index.html en la ruta principal
 def principal():
-    return render_template('index.html')
+    return render_template('idex.html')
 
 
 # main del programa
