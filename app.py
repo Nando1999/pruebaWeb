@@ -1,5 +1,5 @@
 # Importar las librerias
-from markupsafe import escape
+
 # from email.mime import application
 from flask import Flask, abort, render_template
 
@@ -8,10 +8,10 @@ from flask import Flask, abort, render_template
 app = Flask(__name__)
 
 #ruta principal
-@app.route('/')
 #Llamar a index.html en la ruta principal
-def principal():
-    return render_template('idex.html')
+@app.route('/')
+def idex():
+    return render_template('idex3.html')
 
 
 # main del programa
